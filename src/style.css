@@ -1,27 +1,15 @@
 /* styles go here */
 .form {
-  margin-top: 0;
   margin-bottom: 20px;
 
 }
 
-.form__first {
-  margin-top: 0;
-  margin-bottom: 5px;
+.form__field:not(:last-child) {
+  padding-bottom: 10px;
+
 }
 
-.first {
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-
-.form__field {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.field {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.field:not(:last-child) {
+  margin-bottom: 10px;
 
 }
