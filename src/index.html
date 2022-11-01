@@ -18,12 +18,12 @@
       <fieldset class="form">
         <legend>Personal information</legend>
 
-        <label for="Surname" class="form__first">Surname:
+        <label for="Surname" class="form__field">Surname:
           <input
           type="text"
           name="Surname"
           autocomplete="off"
-          class="first"
+          class="field"
           ><br>
         </label>
 
@@ -57,12 +57,14 @@
 
         <label for="terms-of-agreement" class="form__field">I accept the term of the agreement
           <input
-          type="checkbox"
-          name="agreement"
-          required
-          class="field"
+            type="checkbox"
+            name="agreement"
+            required
+            class="field"
           >
         </label>
+
+
 
       </fieldset>
 
@@ -70,18 +72,18 @@
       <fieldset class="form">
         <legend>Registration</legend>
 
-        <label for="e-mail" class="form__first">E-mail:
+        <label for="e-mail" class="form__field">E-mail:
           <input type="email"
           name="email"
           placeholder="email@example.com"
-          class="first"
+          class="field"
           ><br>
         </label>
 
         <label for="Top-secret" class="form__field">Password:
           <input
           type="password"
-          name="password"
+          name="Password"
           minlength="5"
           maxlength="12"
           class="field"
@@ -93,23 +95,23 @@
       <fieldset class="form">
         <legend>An interesting fact about you!</legend>
 
-        <label for="Pets" class="form__first">Do you love cats?
+        <label for="Pets" class="form__field">Do you love cats?
           <input
           type="radio"
           name="cat"
-          class="first"
-          >Yes
+          class="field"
+          > Yes
           <input
           type="radio"
           name="cat"
-          class="first"
-          >No
+          class="field"
+          > No
         </label><br>
 
         <label for="Color" class="form__field">What is your favourite color?
           <input
           type="color"
-          name="color"
+          name="colour"
           class="field"
           ><br>
         </label>
@@ -117,7 +119,7 @@
         <label for="Time" class="form__field">What time do you go to bed?
           <input
           type="time"
-          name="time"
+          name="Time"
           class="field"
           ><br>
         </label>
@@ -132,7 +134,7 @@
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
             <option value=" " disabled
-            selected>
+            >
             </option>
 
           </select>
@@ -151,10 +153,10 @@
       <fieldset class="form">
         <legend>Additional info:</legend>
 
-        <label for="comments" class="form__first">Comments:
+        <label for="comments" class="form__field">Comments:
           <textarea
           name="comment"
-          class="first">
+          class="field">
           </textarea>
         </label><br>
 
