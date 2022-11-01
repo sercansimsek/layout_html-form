@@ -1,15 +1,12 @@
 /* styles go here */
-.form {
-  margin-bottom: 20px;
-
+.field {
+  display: block;
 }
 
-.form__field:not(:last-child) {
-  padding-bottom: 10px;
-
+.fieldset:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .field:not(:last-child) {
   margin-bottom: 10px;
-
 }
